@@ -1,0 +1,21 @@
+body{
+    text-align:center;
+}
+h1{
+    color:lightgreen;
+    font-size:45px;
+}
+h3{
+    color:lightblue;
+}
+button{
+    background-color: blue;
+    color:white;
+}
+h4{
+    color:white;
+}
+canvas{
+    margin-top:200px;
+    
+}

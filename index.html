@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Proyecto135(deteccion objetos mov)</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="main.js"></script>
+
+    </head>
+
+    <body background="https://es.digitaltrends.com/wp-content/uploads/2023/04/mejores-fondos-de-pantalla.jpeg?p=1">
+     <h1>Proyecto135</h1>
+     <h3>El nombre que escribas de entrada deberá corresponder con los nombres presentes en el modelo CoCo, solo asi podrá detectar los objetos</h3>
+     <input id="object_name" class="form-control" type="text">
+     <button onclick="start()" class="btn btn-success">Iniciar</button>
+     <br>
+     <br>
+     <h4 id="status" class="btn btn-warning"></h4>    
+     <br>
+     <br>
+     <h4 id="object_status" class="btn btn-danger"></h4>                                 
+    </body>
+</html>
